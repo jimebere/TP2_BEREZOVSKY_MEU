@@ -1,0 +1,68 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.30.0-'s-Hertogenbosch">
+  <identifier>comunas</identifier>
+  <parentidentifier></parentidentifier>
+  <language>ES</language>
+  <type>dataset</type>
+  <title>Comunas de la Ciudad Autónoma de Buenos Aires</title>
+  <abstract>Delimitación de las Comunas - jurisdicciones que sustituyen a los C.G.P.s - a implementarse a partir del 1º de Enero del 2006. Junio 2007: La modificación a la ley 1777 que redefine los límites de las Comunas de la Ciudad fue sancionada como Ley 2329 del 10/5/07, promulgada por Decreto 779/07. Abril 2008: La última modificación a la Ley de Comunas 1.777 fue publicada en el Boletín Oficial Nº 2.910 del 16/04/2008. Fue sancionada como Ley Nº 2.560/08.
+
+
+
+REQUIRED: A brief narrative summary of the data set.
+
+REQUIRED: A summary of the intentions with which the data set was developed.</abstract>
+  <keywords vocabulary="gmd:topicCategory">
+    <keyword>REQUIRED: Common-use word or phrase used to describe the subject of the data set.</keyword>
+  </keywords>
+  <contact>
+    <contactAddress>
+      <type></type>
+      <address>Juan Carlos Gomez 276 piso 1</address>
+      <city>Ciudad Autónoma de Buenos Aires</city>
+      <administrativearea>Ciudad Autónoma de Buenos Aires</administrativearea>
+      <postalcode>C1282ABF</postalcode>
+      <country>ar</country>
+    </contactAddress>
+    <name>GO Información Geoespacial - Dirección General de Ciencias de la Información</name>
+    <organization>Subsecretaría de Políticas Públicas Basadas en Evidencia - Secretaría de Innovación y Transformación Digital - Jefatura de Gabinete - Gobierno de la Ciudad Autónoma de Buenos Aires</organization>
+    <position></position>
+    <voice></voice>
+    <fax></fax>
+    <email>usig_info@buenosaires.gob.ar</email>
+    <role></role>
+  </contact>
+  <links>
+    <link description="" mimeType="" size="" format="" type="Local Area Network" url="http://www.mapa.buenosaires.gob.ar - http://mapas.usig.buenosaires.gob.ar" name="Shapefile, csv"/>
+  </links>
+  <history>En base a la Ordenanza Nº 23.698 (11 de junio de 1968) completada por la Ordenanza Nº 26607 de 1972, se tomó el shape fuente catrelsa y se actualizo en base a tal ordenanza. Septiembre 2006: Modificación en base a la Ley Nº 1.777 y sus modificatorias que redefine los límites de los Barrios de la Ciudad y deroga la Ordenanza 26.607 de 1972 Noviembre 2006: delimitación de nuevos límites de Barrios según Ley Nº 1.777 generados por la Dirección General Electoral, a partir de este shape se confeccionaron las comunas. Junio 2007: La última modificación a la Ley Nº 1777. Fue sancionada como Ley Nº 2329 del 10/5/07, promulgada por Decreto Nº 779/07 del 1/6/07. Abril 2008: La última modificación a la Ley de Comunas 1.777 fue publicada en el Boletín Oficial Nº 2.910 del 16/04/2008. Fue sancionada como Ley Nº 2.560/08. En Diciembre del 2011 se ajustaron los límites de cada comuna a la última versión del shape de calles (topología). En Octubre del 2018 se ajustaron los límites de las comunas: 13, 14, 2, 1, 4 y 8 en base al vuelo fotogramétrico 2017, y se agregaron los campos de ID y OBJETO. En febrero de 2019 se terminó de ajustar algunos límites de comunas en base al vuelo fotogramétrico 2017 En octubre de 2019 se realizaron correcciones topológicas. En Junio de 2022 se corrobora la actualización de la digitalización. Junio 2023. Se confirma la actualización de la información. El archivo contiene los siguientes campos: ID TIPO: Numérico (4) DESCRIPCIÓN: Identificador único de cada registro. OBJETO TIPO: Texto (50) DESCRIPCIÓN: Tipo de elemento mapeado. COMUNAS TIPO: Numérico (19) DESCRIPCIÓN: Nombre de cada Comuna. BARRIOS TIPO: Texto (250) DESCRIPCIÓN: Barrios que conforman cada comuna. PERIMETRO TIPO: Numérico (19) DESCRIPCIÓN: Perímetro en metros AREA TIPO: Numérico (19) DESCRIPCIÓN: Área en metros cuadrados</history>
+  <dates/>
+  <fees></fees>
+  <constraints type="Limitaciones de uso">La información deberá ser utilizada de acuerdo con los usos que marca la Ley, respetando la fuente de los datos originales. La información suministrada en formato digital es para uso personal e intransferible. Queda estrictamente prohibido cualquier aprovechamiento o explotación del diseño y los Contenidos -por cualquier medio-, con fines comerciales. Sin perjuicio de ello, la información presentada podrá ser utilizada con fines informativos e ilustrativos en el contexto de un proyecto educacional o de divulgación científica, y siempre que se aclare la fuente. La utilización de los Contenidos de una forma que infrinja estas las disposiciones de uso, faculta al GCBA a ejercer las acciones legales que correspondan.</constraints>
+  <constraints type="Acceso">REQUIRED: Restrictions and legal prerequisites for accessing the data set.</constraints>
+  <rights></rights>
+  <rights>REQUIRED: Restrictions and legal prerequisites for using the data set after access is granted.</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt></wkt>
+      <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+      <srsid>0</srsid>
+      <srid>0</srid>
+      <authid></authid>
+      <description></description>
+      <projectionacronym></projectionacronym>
+      <ellipsoidacronym></ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial dimensions="2" maxz="0" crs="EPSG:4326" minz="0" maxy="-34.52648899999999799" minx="-58.53151900000000296" maxx="-58.33514999999999873" miny="-34.70529299999999751"/>
+    <temporal>
+      <period>
+        <start></start>
+        <end></end>
+      </period>
+    </temporal>
+  </extent>
+</qgis>
